@@ -132,7 +132,9 @@ input::-webkit-inner-spin-button {
 }
 
 input[type="number"] {
-  -moz-appearance: textfield;
+  appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
 }
 
 input[type="checkbox"] {
@@ -700,12 +702,12 @@ span {
 }
 
 .section-heading {
-  width: 732px;
+  width: 100%;
 }
 
 .title-line {
-  width: 4px;
-  height: 67px;
+  width: 50px;
+  height: 5px;
   background-color: rgba(var(--p1));
 }
 .title-line2 {
