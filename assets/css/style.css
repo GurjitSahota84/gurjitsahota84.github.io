@@ -1170,8 +1170,8 @@ span {
 }
 
 .title-line2 {
-  width: 4px;
-  height: 38px;
+  width: 50px;
+  height: 5px;
   background-color: rgba(var(--p1));
 }
 
@@ -1670,19 +1670,6 @@ input:-webkit-autofill:active {
   }
   .section-heading {
     width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  .title-line {
-    height: 50px;
-  }
-  .p-btn {
-    font-size: 12px;
-  }
-}
-@media (max-width: 575px) {
-  .title-line {
-    height: 40px;
   }
 }
 .side-menu {
