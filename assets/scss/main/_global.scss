@@ -1163,5 +1163,9 @@ input:-webkit-autofill:active {
 .project-card{
   margin-bottom:40px;
 }
+.portfolio-details-img{
+  box-shadow: 0px 2px 10px rgba(var(--n4), 0.08);
+    border: 1px solid rgba(var(--n4), 0.08);
+}
 
 
