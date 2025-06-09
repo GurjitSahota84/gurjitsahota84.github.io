@@ -1175,15 +1175,6 @@ span {
   background-color: rgba(var(--p1));
 }
 
-.page-heading {
-  width: 856px;
-  margin: auto;
-}
-.page-heading .page-title {
-  width: 664px;
-  margin: auto;
-}
-
 /* Loader Styles start here */
 .loader-wrapper {
   --line-width: 5px;
