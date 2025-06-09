@@ -2194,9 +2194,12 @@ input:-webkit-autofill:active {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
 }
+.project-details-content ul {
+  padding-left: 40px;
+}
 .project-details-content ul li {
   list-style: disc;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 .pricing-card {

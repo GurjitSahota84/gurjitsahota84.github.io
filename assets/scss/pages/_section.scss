@@ -362,9 +362,10 @@
     }
   }
   ul {
+    padding-left:40px;
     li {
       list-style: disc;
-      list-style-position: inside;
+      list-style-position: outside;      
     }
   }
 }
