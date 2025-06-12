@@ -136,6 +136,11 @@ li {
 .pb-60 {
   padding-bottom: 60px;
 }
+  .py-60{
+  padding-top:60px;
+  padding-bottom:60px;
+    
+  }
 
 @media (max-width: 991px) {
   // Normalize
@@ -253,6 +258,11 @@ li {
   .pb-60 {
     padding-bottom: 30px;
   }
+   .py-60{
+  padding-top:30px;
+  padding-bottom:30px;
+    
+  }
 
   .banner-section .overlay .sec-img {
     display: none;
@@ -369,4 +379,10 @@ li {
   .pb-60 {
     padding-bottom: 40px;
   }
+  .footer{   
+      padding-bottom:80px;    
+  }
+ 
 }
+
+
