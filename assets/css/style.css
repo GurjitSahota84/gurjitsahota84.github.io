@@ -1,10 +1,10 @@
 /*============================================ 
 # Name: Gurjit's Portfolio
 # Version: 1.0
-# Date: 25-10-2023
+# Date: 25-05-2025
 # Author: 
-# Author URI: 
-# Description: Gurjit's Blog HTML Template
+# Author: Gurjit KAur
+# Description: Gurjit's Portfolio
 ============================================*/
 /*============================================ 
 ======== Table of Css Content =========
@@ -2201,6 +2201,7 @@ input:-webkit-autofill:active {
 .project-details-content .portfolio-details-img {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  background-color: #fff;
 }
 .project-details-content .portfolio-details-img:hover {
   -webkit-transform: scale(1.04);
