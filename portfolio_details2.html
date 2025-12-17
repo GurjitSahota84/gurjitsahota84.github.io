@@ -2,28 +2,28 @@
 <html lang="en">
 
 <head>
-  <!-- required meta -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- #title -->
-  <title>Gurjit - Personal Portfolio</title>
-  <!-- #favicon -->
-  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
-  <!-- ==== css dependencies start ==== -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- AOS  -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- swiper  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- #title -->
+    <title>Gurjit - Personal Portfolio</title>
+    <!-- #favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
+    <!-- ==== css dependencies start ==== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <!-- ICON  -->
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- ICON  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
-  <!-- don't remove this 
+    <!-- don't remove this 
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="11"
@@ -76,277 +76,351 @@
         </clipPath>
       </defs>
     </svg>-->
-  <!-- preloder  srart -->
-  <div class="loader-wrapper">
-    <div class="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-  </div>
-  <!-- preloder  end -->
-
-  <div class="d-lg-flex gap-lg-6">
-    <!-- sidebar start -->
-    <div class="side-menu">
-      <!-- sidebar-btn  -->
-      <div class="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
-        <i class="ph ph-x fs-two p1-color"></i>
-      </div>
-
-      <div class="d-flex">
-        <div class="side-menu-right overflow-y-auto">
-          <div class="d-flex flex-column gap-6 justify-content-between py-10 px-5 bgn2-color h-100">
-            <div class="">
-
-              <div class="sidebar-profile">
-                <div class="position-relative">
-                  <div class="profile-img1 d-flex justify-content-center overflow-hidden">
-                    <img src="./assets/images/profile.svg" alt="user" class="" />
-                  </div>
-                  
-                </div>
-
-                <h4 class="n5-color fw-semibold fs-five mt-2 text-center">
-                  Gurjit Kaur
-                </h4>
-                <span class="n5-color fs-nine d-block text-center">Sr. UX/UI Product Designer</span>
-               <div class="d-flex justify-content-center gap-2 align-items-center mt-4">
-                                 
-                  <a href="https://www.linkedin.com/in/gurjit-sahota/" class="social-icon p1-color">
-                    <i class="ph ph-linkedin-logo"></i>
-                  </a>
-                   <a href="https://www.facebook.com/gurjit.kaur.333" class="social-icon p1-color">
-                    <i class="ph ph-facebook-logo"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="line-divider my-4 my-md-8"></div>
-
-              <div class="menu-list">
-                <ul class="d-flex flex-column gap-3">
-                  <li class="rounded-3 ">
-                    <a href="index.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i
-                        class="ph ph-user fs-six"></i> About Me</a>
-                  </li>
-
-                  <li class="rounded-3 bg1-color">
-                    <a href="portfolio.html" class="d-flex justify-content-between align-items-center">
-                      <div class="d-flex align-items-center gap-2  n11-color fs-eight px-3 py-2">
-                        <i class="ph ph-code-block fs-six"></i> Portfolio
-                      </div>
-                      <span class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3">08</span>
-                    </a>
-                  </li>
-
-                  <li class="rounded-3">
-                    <a href="contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i
-                        class="ph ph-envelope fs-six"></i>Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="d-flex flex-column align-items-center gap-1">
-              <span class="toggle_name fs-eleven n5-color">DarkMode</span>
-              <button class="side-icon bg1-color mood_toggle">
-                <i class="mood_icon ph-fill ph-moon fs-six n11-color"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- preloder  srart -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
     </div>
-    <!-- sidebar end -->
+    <!-- preloder  end -->
 
-    <div class="main-content w-100 overflow-visible">
-      <!-- top header  -->
-      <div
-        class="w-100 bgn1-color p-3 position-fixed z-3 top-0 d-lg-none d-flex align-items-center justify-content-between br-bottom-n5 box-shadow1">
-        <a href="index.html" class="side-icon bgn2-color brn4">
-        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 38 48" fill="none">
-<path d="M17.8864 15.1591C17.697 14.5455 17.4356 13.9962 17.1023 13.5114C16.7765 13.0189 16.3826 12.5985 15.9205 12.25C15.4659 11.9015 14.9432 11.6402 14.3523 11.4659C13.7614 11.2841 13.1174 11.1932 12.4205 11.1932C11.1705 11.1932 10.0568 11.5076 9.07955 12.1364C8.10227 12.7652 7.33333 13.6894 6.77273 14.9091C6.2197 16.1212 5.94318 17.5985 5.94318 19.3409C5.94318 21.0985 6.2197 22.5871 6.77273 23.8068C7.32576 25.0265 8.0947 25.9545 9.07955 26.5909C10.0644 27.2197 11.2083 27.5341 12.5114 27.5341C13.6932 27.5341 14.7159 27.3068 15.5795 26.8523C16.4508 26.3977 17.1212 25.7538 17.5909 24.9205C18.0606 24.0795 18.2955 23.0947 18.2955 21.9659L19.25 22.1136H12.9318V18.8182H22.375V21.6136C22.375 23.6061 21.9508 25.3295 21.1023 26.7841C20.2538 28.2386 19.0871 29.3598 17.6023 30.1477C16.1174 30.928 14.4129 31.3182 12.4886 31.3182C10.3447 31.3182 8.46212 30.8371 6.84091 29.875C5.22727 28.9053 3.96591 27.5303 3.05682 25.75C2.1553 23.9621 1.70455 21.8409 1.70455 19.3864C1.70455 17.5076 1.9697 15.8295 2.5 14.3523C3.03788 12.875 3.78788 11.6212 4.75 10.5909C5.71212 9.55303 6.84091 8.76515 8.13636 8.22727C9.43182 7.68182 10.8409 7.40909 12.3636 7.40909C13.6515 7.40909 14.8523 7.59848 15.9659 7.97727C17.0795 8.34848 18.0682 8.87879 18.9318 9.56818C19.803 10.2576 20.5189 11.0758 21.0795 12.0227C21.6402 12.9697 22.0076 14.0152 22.1818 15.1591H17.8864Z" fill="rgba(var(--p1))"/>
-<path d="M18.2955 43V19.7273H22.5114V30.4205H22.7955L31.875 19.7273H37.0227L28.0227 30.1705L37.1023 43H32.0341L25.0909 33.0227L22.5114 36.0682V43H18.2955Z" fill="rgba(var(--p1))"/>
-</svg>
-        </a>
-
-        <div class="d-flex gap-3 align-items-center">        
-          <button class="side-icon bg1-color mood_toggle">
-            <i class="mood_icon ph-fill ph-moon fs-six n11-color"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- bottom header  -->
-       <div class="w-100 bgn1-color p-3 position-fixed z-3 bottom-0 d-block d-lg-none br-top-n5 box-shadow1">
-        <div class="header-bottom-menu w-full">
-          <ul class="d-flex gap-1 align-items-center justify-content-between">
-            <li class="rounded-3 bg1-color">
-              <a href="index.html" class="d-flex align-items-center gap-2 n11-color fs-eight p-2">
-                <span class="fs-five d-flex align-items-center justify-content-center">
-                  <i class="ph-fill ph-user"></i>
-                </span>
-                <span class="d-none d-md-block">About Me</span></a>
-            </li>
-            <li>
-              <a href="portfolio.html" class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
-                  <span class="fs-five d-flex align-items-center justify-content-center">
-                    <i class="ph-fill ph-code-block"></i>
-                  </span>
-                  <span class="d-none d-md-block">Portfolio</span>
-                </div>
-                <span class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3 d-none d-md-block">08</span>
-              </a>
-            </li>
-         
-         
-        
-        
-            <li>
-              <a href="contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
-                <span class="fs-five d-flex align-items-center justify-content-center"><i
-                    class="ph-fill ph-envelope"></i></span>
-                <span class="d-none d-md-block">Contact</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- color palettes btns -->
-      <div class="color-switcher">
-        <button class="switcher-btn">
-          <i class="ph ph-gear-six"></i>
-        </button>
-        <div class="pallates box-shadow2 brn4">
-          <div class="d-flex gap-2">
-            <button class="color-btn bg-color1" data-color="120, 171, 168"></button>
-            <button class="color-btn bg-color3" data-color="253, 187, 46"></button>
-          </div>
-          <div class="d-flex gap-2 mt-2">
-            <button class="color-btn bg-color4" data-color=" 58, 100, 183"></button>
-            <button class="color-btn bg-color5" data-color=" 111, 98,175"></button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio details section start -->
-      <section class="py-60 mt-10 mt-lg-0">
-       
-        <div class="container mt-8 mt-md-15 pb-60">
-          <div class="row g-6">
-            <div data-aos="fade-left" class="col-12 col-xl-3">
-              <div class="d-flex flex-column gap-5 position-sticky top-5 brn4 p-3 rounded">
-                <div>
-                  <span class="n4-color fs-eight fw-medium d-block">Client:</span>
-                  <span class="n5-color fs-six fw-medium">Youtema (Swiss website)</span>
-                </div>
-                <div>
-                  <span class="n4-color fs-eight fw-medium d-block">Services</span>
-                  <span class="n5-color fs-six fw-medium">Web Design / Development</span>
-                </div>
-                <div>
-                  <span class="n4-color fs-eight fw-medium d-block">Technologies</span>
-                  <span class="n5-color fs-six fw-medium">Figma/Adobe XD, Trello, HTML5, SCSS, Bootstrap5, Drupal</span>
-                </div>
-                <!--<div>
-                  <span class="n4-color fs-eight fw-medium d-block">Website</span>
-                  <a href="javascript:void(0)" class="n5-color fs-six fw-medium d-flex align-items-center gap-2">Live
-                    <span class="n5-color">Preview <i class="ph-bold ph-arrow-right"></i></span></a>
-                </div> -->
-              </div>
+    <div class="d-lg-flex gap-lg-6">
+        <!-- sidebar start -->
+        <div class="side-menu">
+            <!-- sidebar-btn  -->
+            <div class="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
+                <i class="ph ph-x fs-two p1-color"></i>
             </div>
 
-            <div data-aos="fade-right" class="col-12 col-xl-9">
-              <div class="project-details-content d-flex flex-column gap-8 gap-md-15">
-                <div class="overflow-hidden">
-                  <img src="./assets/images/project2-1.png" alt="project" class="w-100 portfolio-details-img" />
-                </div>
+            <div class="d-flex">
+                <div class="side-menu-right overflow-y-auto">
+                    <div class="d-flex flex-column gap-6 justify-content-between py-10 px-5 bgn2-color h-100">
+                        <div class="">
 
-                <div data-aos="fade-up">
-                  <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
-                    Case Study: YouTema
-                  </h3>
-                  <p class="fs-seven n5-color">
-                    Designed an intuitive step-by-step purchase flow with responsive design techniques, 
-                    improving the overall user experience and intuitive cart details with discounts and 
-                    actual price comparison.
-                  </p>
-                </div>
-                <div data-aos="fade-up">
-                
-                  <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
-                   Role & Responsibilities:
-                  </h3>
-                  <p class="mb-1 n4-color">
-                     <b>Lead UX/UI Designer, </b>I collaborated on business requirements, created low- and high-fidelity wireframes, gathered approvals, incorporated feedback, and
-                    contributed to HTML/CSS development.  
-                  </p>
-                  <p class="mb-1 n4-color">
-                    <b>Team Composition:</b>UX/UI Designer, Developers, QA Analysts, Product Owners, 
-                    Project Managers, and Business Stakeholders — a cross-functional team of approximately
-                     15 members.                  
-                  </p>               
+                            <div class="sidebar-profile">
+                                <div class="position-relative">
+                                    <div class="profile-img1 d-flex justify-content-center overflow-hidden">
+                                        <img src="./assets/images/profile.svg" alt="user" class="" />
+                                    </div>
 
-                </div>
-         
-                <div data-aos="fade-up">
-                  <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
-                    The Challenge
-                  </h3>
-                  <p class="text-seven n4-color">
-                   Users were frustrated with cluttered checkouts, hidden discount info, 
-                   and poor mobile usability, leading to incomplete purchases.
-                  </p>
-                </div>
-                <div data-aos="fade-up">
-                   <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
-                    The Approach & Solution
-                  </h3>
-                  <p class="text-seven n4-color mb-5">
-                 Simplify the checkout process into clear steps, Highlight discounts and actual price comparisons, 
-                 Ensure a responsive design across devices, Process Research & Insights
-                 User interviews revealed a need for clarity in total pricing and fewer steps, 
-                 Competitor analysis showed best practices like progress indicators and persistent cart summaries
+                                </div>
 
-                  </p>
-                  <div class="row g-3 g-md-6">
-                    <div class="col-sm-12 overflow-hidden">
-                      <img src="./assets/images/project2-2.png" alt="project"
-                        class="w-100 object-fit-cover portfolio-details-img" />
-                    </div>                    
-                  </div>
+                                <h4 class="n5-color fw-semibold fs-five mt-2 text-center">
+                                    Gurjit Kaur
+                                </h4>
+                                <span class="n5-color fs-nine d-block text-center">Sr. UX/UI Product Designer</span>
+                                <div class="d-flex justify-content-center gap-2 align-items-center mt-4">
 
-                </div>
-                <div data-aos="fade-up">
-                  <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
-                    The Results
-                  </h3>
-                  <p data-aos="fade-up" class="text-seven n4-color mb-8 mb-md-15">
-                   A/B testing showed a 30% boost in conversion and 40% lower cart abandonment
-                    Users rated the new flow 4.8/5 in usability
-                    Mobile completion rate increased by 60% <br>
+                                    <a href="https://www.linkedin.com/in/gurjit-sahota/" class="social-icon p1-color">
+                                        <i class="ph ph-linkedin-logo"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/gurjit.kaur.333" class="social-icon p1-color">
+                                        <i class="ph ph-facebook-logo"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="line-divider my-4 my-md-8"></div>
 
-                    This redesign significantly improved the purchase experience by making it intuitive, transparent, and responsive—resulting in higher engagement and sales.
+                            <div class="menu-list">
+                                <ul class="d-flex flex-column gap-3">
+                                    <li class="rounded-3 ">
+                                        <a href="index.html"
+                                            class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i
+                                                class="ph ph-user fs-six"></i> About Me</a>
+                                    </li>
 
-                  </p>
+                                    <li class="rounded-3 bg1-color">
+                                        <a href="portfolio.html"
+                                            class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-2  n11-color fs-eight px-3 py-2">
+                                                <i class="ph ph-code-block fs-six"></i> Portfolio
+                                            </div>
+                                            <span class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3">08</span>
+                                        </a>
+                                    </li>
 
-                </div>
-
-              </div>
-               <div class="d-flex flex-wrap justify-content-center gap-3 gap-md-6 mt-4 mt-md-8">
-                   <a href="portfolio_details1.html"
-                    class="primary-btn btn-disable px-3 px-md-6 py-2 fw-medium d-flex align-items-center gap-2 rounded-3">
-                    <i class="ph ph-arrow-left"></i>
-                  </a> 
-                  <a href="portfolio_details3.html"
-                    class="primary-btn px-3 px-md-6 py-2 fw-medium d-flex align-items-center gap-2 rounded-3">
-                   <i class="ph ph-arrow-right"></i>
-                  </a>          
+                                    <li class="rounded-3">
+                                        <a href="contact.html"
+                                            class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i
+                                                class="ph ph-envelope fs-six"></i>Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column align-items-center gap-1">
+                            <span class="toggle_name fs-eleven n5-color">DarkMode</span>
+                            <button class="side-icon bg1-color mood_toggle">
+                                <i class="mood_icon ph-fill ph-moon fs-six n11-color"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
+        <!-- sidebar end -->
 
-        <!-- next project section start 
+        <div class="main-content w-100 overflow-visible">
+            <!-- top header  -->
+            <div
+                class="w-100 bgn1-color p-3 position-fixed z-3 top-0 d-lg-none d-flex align-items-center justify-content-between br-bottom-n5 box-shadow1">
+                <a href="index.html" class="side-icon bgn2-color brn4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 38 48" fill="none">
+                        <path
+                            d="M17.8864 15.1591C17.697 14.5455 17.4356 13.9962 17.1023 13.5114C16.7765 13.0189 16.3826 12.5985 15.9205 12.25C15.4659 11.9015 14.9432 11.6402 14.3523 11.4659C13.7614 11.2841 13.1174 11.1932 12.4205 11.1932C11.1705 11.1932 10.0568 11.5076 9.07955 12.1364C8.10227 12.7652 7.33333 13.6894 6.77273 14.9091C6.2197 16.1212 5.94318 17.5985 5.94318 19.3409C5.94318 21.0985 6.2197 22.5871 6.77273 23.8068C7.32576 25.0265 8.0947 25.9545 9.07955 26.5909C10.0644 27.2197 11.2083 27.5341 12.5114 27.5341C13.6932 27.5341 14.7159 27.3068 15.5795 26.8523C16.4508 26.3977 17.1212 25.7538 17.5909 24.9205C18.0606 24.0795 18.2955 23.0947 18.2955 21.9659L19.25 22.1136H12.9318V18.8182H22.375V21.6136C22.375 23.6061 21.9508 25.3295 21.1023 26.7841C20.2538 28.2386 19.0871 29.3598 17.6023 30.1477C16.1174 30.928 14.4129 31.3182 12.4886 31.3182C10.3447 31.3182 8.46212 30.8371 6.84091 29.875C5.22727 28.9053 3.96591 27.5303 3.05682 25.75C2.1553 23.9621 1.70455 21.8409 1.70455 19.3864C1.70455 17.5076 1.9697 15.8295 2.5 14.3523C3.03788 12.875 3.78788 11.6212 4.75 10.5909C5.71212 9.55303 6.84091 8.76515 8.13636 8.22727C9.43182 7.68182 10.8409 7.40909 12.3636 7.40909C13.6515 7.40909 14.8523 7.59848 15.9659 7.97727C17.0795 8.34848 18.0682 8.87879 18.9318 9.56818C19.803 10.2576 20.5189 11.0758 21.0795 12.0227C21.6402 12.9697 22.0076 14.0152 22.1818 15.1591H17.8864Z"
+                            fill="rgba(var(--p1))" />
+                        <path
+                            d="M18.2955 43V19.7273H22.5114V30.4205H22.7955L31.875 19.7273H37.0227L28.0227 30.1705L37.1023 43H32.0341L25.0909 33.0227L22.5114 36.0682V43H18.2955Z"
+                            fill="rgba(var(--p1))" />
+                    </svg>
+                </a>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <button class="side-icon bg1-color mood_toggle">
+                        <i class="mood_icon ph-fill ph-moon fs-six n11-color"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- bottom header  -->
+            <div class="w-100 bgn1-color p-3 position-fixed z-3 bottom-0 d-block d-lg-none br-top-n5 box-shadow1">
+                <div class="header-bottom-menu w-full">
+                    <ul class="d-flex gap-1 align-items-center justify-content-between">
+                        <li class="rounded-3 bg1-color">
+                            <a href="index.html" class="d-flex align-items-center gap-2 n11-color fs-eight p-2">
+                                <span class="fs-five d-flex align-items-center justify-content-center">
+                                    <i class="ph-fill ph-user"></i>
+                                </span>
+                                <span class="d-none d-md-block">About Me</span></a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html" class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                                    <span class="fs-five d-flex align-items-center justify-content-center">
+                                        <i class="ph-fill ph-code-block"></i>
+                                    </span>
+                                    <span class="d-none d-md-block">Portfolio</span>
+                                </div>
+                                <span
+                                    class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3 d-none d-md-block">08</span>
+                            </a>
+                        </li>
+
+
+
+
+                        <li>
+                            <a href="contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                                <span class="fs-five d-flex align-items-center justify-content-center"><i
+                                        class="ph-fill ph-envelope"></i></span>
+                                <span class="d-none d-md-block">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- color palettes btns -->
+            <div class="color-switcher">
+                <button class="switcher-btn">
+                    <i class="ph ph-gear-six"></i>
+                </button>
+                <div class="pallates box-shadow2 brn4">
+                    <div class="d-flex gap-2">
+                        <button class="color-btn bg-color1" data-color="120, 171, 168"></button>
+                        <button class="color-btn bg-color3" data-color="253, 187, 46"></button>
+                    </div>
+                    <div class="d-flex gap-2 mt-2">
+                        <button class="color-btn bg-color4" data-color=" 58, 100, 183"></button>
+                        <button class="color-btn bg-color5" data-color=" 111, 98,175"></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio details section start -->
+            <section class="py-60 mt-10 mt-lg-0">
+
+                <div class="container mt-8 mt-md-15 pb-60">
+                    <div class="row g-6">
+                        <div data-aos="fade-left" class="col-12">
+                            <div class="d-flex flex-column gap-5 position-sticky top-5 brn4 p-3 rounded">
+                                <div class="row g-6">
+                                    <div class="col-12 col-xl-6">
+                                        <span class="n4-color fs-eight fw-medium d-block">Client:</span>
+                                        <span class="n5-color fs-six fw-medium">Youtema (Swiss website)</span>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <span class="n4-color fs-eight fw-medium d-block">Services</span>
+                                        <span class="n5-color fs-six fw-medium">Web Design / Development</span>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <span class="n4-color fs-eight fw-medium d-block">Technologies</span>
+                                        <span class="n5-color fs-six fw-medium">Figma/Adobe XD, Trello, HTML5, SCSS,
+                                            Bootstrap5, Drupal</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" class="col-12">
+                            <div class="project-details-content d-flex flex-column gap-8 gap-md-15">
+                                <div class="overflow-hidden">
+                                    <img src="./assets/images/project2-1.png" alt="project"
+                                        class="w-100 portfolio-details-img" />
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        Case Study: YouTema
+                                    </h3>
+                                    <p class="fs-seven n5-color">
+                                        Designed an intuitive step-by-step purchase flow with responsive design
+                                        techniques,
+                                        improving the overall user experience and intuitive cart details with discounts
+                                        and actual price comparison.
+                                    </p>
+                                </div>
+                                <div data-aos="fade-up">
+
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        Role & Responsibilities:
+                                    </h3>
+                                    <p class="mb-1 n4-color">
+                                        <b>Lead UX/UI Designer, </b>I collaborated on business requirements, created
+                                        low- and high-fidelity wireframes, gathered approvals, incorporated feedback,
+                                        and
+                                        contributed to HTML/CSS development.
+                                    </p>
+                                    <p class="mb-1 n4-color">
+                                        <b>Team Composition:</b>UX/UI Designer, Developers, QA Analysts, Product Owners,
+                                        Project Managers, and Business Stakeholders — a cross-functional team of
+                                        approximately
+                                        15 members.
+                                    </p>
+
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        The Challenge
+                                    </h3>
+
+                                    <div class="row g-3 g-md-6">
+                                        <div data-aos="fade-up" data-aos-duration="500"
+                                            class="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3 aos-init aos-animate">
+                                            <div class="service-card px-4 px-lg-8 py-5 py-lg-10">
+                                                <div class="d-flex gap-3 fs-two n5-color">
+                                                    <i class="ph ph-shopping-cart"></i>
+                                                </div>
+                                                <h4 class="fs-six n5-color fw-medium mt-3 mt-md-6 mb-2 mb-md-3">
+                                                    Cluttered checkouts
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div data-aos="fade-up" data-aos-duration="500"
+                                            class="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3 aos-init aos-animate">
+                                            <div class="service-card px-4 px-lg-8 py-5 py-lg-10">
+                                                <div class="d-flex gap-3 fs-two n5-color">
+                                                    <i class="ph ph-money-wavy"></i>
+                                                </div>
+                                                <h4 class="fs-six n5-color fw-medium mt-3 mt-md-6 mb-2 mb-md-3">
+                                                    Hidden discount info
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div data-aos="fade-up" data-aos-duration="500"
+                                            class="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3 aos-init aos-animate">
+                                            <div class="service-card px-4 px-lg-8 py-5 py-lg-10">
+                                                <div class="d-flex gap-3 fs-two n5-color">
+                                                    <i class="ph ph-devices"></i>
+                                                </div>
+                                                <h4 class="fs-six n5-color fw-medium mt-3 mt-md-6 mb-2 mb-md-3">
+                                                    Poor mobile usability
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div data-aos="fade-up" data-aos-duration="500"
+                                            class="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3 aos-init aos-animate">
+                                            <div class="service-card px-4 px-lg-8 py-5 py-lg-10">
+                                                <div class="d-flex gap-3 fs-two n5-color">
+                                                    <i class="ph ph-smiley-sad"></i>
+                                                </div>
+                                                <h4 class="fs-six n5-color fw-medium mt-3 mt-md-6 mb-2 mb-md-3">
+                                                    Incomplete purchases
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div data-aos="fade-up">
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        The Approach & Solution
+                                    </h3>
+
+                                    <ul class="text-seven n4-color mb-5 mb-md-10">
+                                        <li class="mb-3">
+                                            <b>Simplified Checkouts:</b>
+                                            Simplify the checkout process into clear steps, Highlight discounts and
+                                            actual price comparisons
+                                        </li>
+
+                                        <li class="mb-3">
+                                            <b>Device friendly layout:</b>
+                                            Ensure a responsive design across devices
+                                        </li>
+
+                                        <li class="mb-3">
+                                            <b>Process Research & Insights:</b>
+                                            User interviews revealed a need for clarity in total pricing and fewer
+                                            steps,
+                                            Competitor analysis showed best practices like progress indicators and
+                                            persistent cart summaries
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="row g-3 g-md-6">
+                                        <div class="col-sm-12 overflow-hidden">
+                                            <img src="./assets/images/project2-2.svg" alt="project"
+                                                class="w-100 object-fit-cover portfolio-details-img" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div data-aos="fade-up">
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        The Results
+                                    </h3>
+                                    <p data-aos="fade-up" class="text-seven n4-color mb-8 mb-md-15">
+                                        A/B testing showed a 30% boost in conversion and 40% lower cart abandonment
+                                        Users rated the new flow 4.8/5 in usability
+                                        Mobile completion rate increased by 60% <br>
+
+                                        This redesign significantly improved the purchase experience by making it
+                                        intuitive, transparent, and responsive—resulting in higher engagement and sales.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-center gap-3 gap-md-6 mt-4 mt-md-8">
+                                <a href="portfolio_details1.html"
+                                    class="primary-btn btn-disable px-3 px-md-6 py-2 fw-medium d-flex align-items-center gap-2 rounded-3">
+                                    <i class="ph ph-arrow-left"></i>
+                                </a>
+                                <a href="portfolio_details3.html"
+                                    class="primary-btn px-3 px-md-6 py-2 fw-medium d-flex align-items-center gap-2 rounded-3">
+                                    <i class="ph ph-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- next project section start 
           <div class="next-project pt-120 pb-120">
             <div
               class="container d-flex gap-3 gap-md-6 flex-wrap justify-content-between align-items-center"
@@ -370,28 +444,29 @@
             </div>
           </div>
            next project section end -->
-      </section>
-      <!-- Portfolio details section end -->
+            </section>
+            <!-- Portfolio details section end -->
 
-      <!-- footer section start -->
-      <!-- footer section start -->
-      <section class="footer container d-flex pb-120">       
-        <span class="fs-eight fw-medium n5-color my-5">Copyright © 2025
-          <a href="index.html" class="fs-eight fw-medium n5-color">Gurjit Kaur</a>. All Rights Reserved.</span>
-      </section>
-      <!-- footer section end -->
+            <!-- footer section start -->
+            <!-- footer section start -->
+            <section class="footer container d-flex pb-120">
+                <span class="fs-eight fw-medium n5-color my-5">Copyright © 2025
+                    <a href="index.html" class="fs-eight fw-medium n5-color">Gurjit Kaur</a>. All Rights
+                    Reserved.</span>
+            </section>
+            <!-- footer section end -->
+        </div>
     </div>
-  </div>
 
-  <!-- script js  -->
-  <script src="./assets/js/plugins/plugins.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <!-- swiper js  -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- email js  -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <!-- aos -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- script js  -->
+    <script src="./assets/js/plugins/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- swiper js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- email js  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 
 </html>
