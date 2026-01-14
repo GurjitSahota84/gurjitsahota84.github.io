@@ -123,32 +123,32 @@ h6 > a {
 
 .fs-seven {
   font-size: 18px;
-  line-height: 130%;
+  line-height: 1.5;
 }
 
 .fs-eight {
   font-size: 16px;
-  line-height: 130%;
+  line-height: 1.5;
 }
 
 .fs-nine {
   font-size: 14px;
-  line-height: 130%;
+  line-height: 1.5;
 }
 
 .fs-ten {
   font-size: 12px;
-  line-height: 130%;
+  line-height: 1.5;
 }
 
 .fs-eleven {
   font-size: 10px;
-  line-height: 130%;
+  line-height: 1.5;
 }
 
 table thead tr th {
   font-size: 16px;
-  line-height: 130%;
+  line-height: 1.5;
 }
 
 a,
@@ -252,37 +252,37 @@ li {
   h3,
   h3 > a {
     font-size: 28px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-four,
   h4,
   h4 > a {
     font-size: 24px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-five,
   h5,
   h5 > a {
     font-size: 18px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-six,
   h6,
   h6 > a {
     font-size: 18px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-seven {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-ten {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   table thead tr th {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   a,
   p,
@@ -361,37 +361,37 @@ li {
   h3,
   h3 > a {
     font-size: 26px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-four,
   h4,
   h4 > a {
     font-size: 22px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-five,
   h5,
   h5 > a {
     font-size: 20px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-six,
   h6,
   h6 > a {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-seven {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .fs-nine {
     font-size: 11px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   table thead tr th {
     font-size: 14px;
-    line-height: 130%;
+    line-height: 1.5;
   }
   .pt-120 {
     padding-top: 50px;
@@ -1911,6 +1911,10 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.16);
 }
+.service-card.listCard {
+  padding: 10px;
+  border-radius: 5px;
+}
 .service-card img {
   height: 28px;
   width: auto;
@@ -2217,6 +2221,12 @@ input:-webkit-autofill:active {
 .project-details-content ul li {
   list-style: disc;
   list-style-position: outside;
+}
+.project-details-content .approach ul {
+  padding-left: 0px;
+}
+.project-details-content .approach ul li {
+  list-style: none;
 }
 
 .pricing-card {
